@@ -125,45 +125,15 @@ else
       var=0;
       break;
    }
-
+// Rotina de Demonstração. Comentar para operar manualmente
    sobe();
    frente();
    desce();
    tras();
    base_toggle();
-/*
-  if(valbase==basemin){
-    valbase = basemax;
-    base.write(valbase);
-  }
-  else
-  {
-    valbase = basemin;
-    base.write(valbase);
-  }
-
-   sobe();
-   desce();
-   frente();
-   garra_toggle();
-   tras();
-   base_toggle();
-  
-  
-  */
-   
- 
-
-
-                  // sets the servo position according to the scaled value
-   
-//      Serial.println(valbase);
-   
- //delay(400);                           // waits for the servo to get there
-
 }
 
-
+// Funções de controle
 void frente(){
     for(int i=0;i<35;i++)
     {
